@@ -11,3 +11,13 @@ Children:
     DataType: Color
     ModellingRule: Optional
     Value: "#eef8b7"
+- Name: Alarm
+  Id: g=2914a22f3f835e1233374332b3638333
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: BackgroundColor
+    Type: BaseDataVariableType
+    DataType: Color
+    ModellingRule: Optional
+    Value: "#eef8b7"
