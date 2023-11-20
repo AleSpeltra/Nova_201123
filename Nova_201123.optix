@@ -1,0 +1,39 @@
+Project:
+ Name: Nova_201123
+ GUID: ccc85937602cfb4cc8eced30dffdf882
+ ProjectNamespaceIndex: 18
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.2
+ CoreVersion: 2.0
+ EncryptionVersion: 1
+ EncryptionMode: Secrets
+ Dependencies:
+  3:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 2.1
+  5:
+   Uri: 'urn:FTOptix:UI'
+   Module: FTOptix.UI
+   Version: 2.0
+  7:
+   Uri: 'urn:FTOptix:HMIProject'
+   Module: FTOptix.HMIProject
+   Version: 4.2
+  9:
+   Uri: 'urn:FTOptix:NativeUI'
+   Module: FTOptix.NativeUI
+   Version: 2.0
+  14:
+   Uri: 'urn:FTOptix:Retentivity'
+   Module: FTOptix.Retentivity
+   Version: 1.0
+  16:
+   Uri: 'urn:FTOptix:System'
+   Module: FTOptix.System
+   Version: 2.0
+ Nodes:
+ - File: Nodes/Nova_201123.yaml
